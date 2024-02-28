@@ -11,7 +11,7 @@ const About = () => {
     <div className=''>
         <div className='container mx-auto flex flex-col md:flex-row justify-around items-center h-[200px]'>
             <p className='text-4xl px-5'>Our journey began in 2017…</p>
-            <p className='max-w-[600px] px-5'>Resplendent tutors enterprise came into existence by November 2017. It's name Resplendent is to refurbish (bring out the beauty of education making it new and better) especially here in Nigeria.</p>
+            <p className='max-w-[600px] px-5'>Resplendent tutors enterprise came into existence by November 2017. It`&apos;`s name Resplendent is to refurbish (bring out the beauty of education making it new and better) especially here in Nigeria.</p>
 
         </div>
         <div className='container px-5 mt-20 mx-auto flex flex-col-reverse md:flex-row justify-around items-start'>
