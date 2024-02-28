@@ -43,7 +43,7 @@ export default function Update() {
     };
 
     return <>
-        <form onSubmit={handleSubmit} className="py-4 mt-4 border-t flex flex-col gap-5 w-[400px]">
+        <form onSubmit={handleSubmit} className="py-4 mt-4 border-t flex flex-col gap-5 w-auto">
             <div>
                 <label htmlFor="businessname">Full Name</label>
                 <input onChange={(e) => setName(e.target.value)} value={name} type="text" id="Fullname"/>

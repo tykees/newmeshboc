@@ -5,7 +5,7 @@ import Joinus from '../../../public/joinus.png';
 
 const Join = () => {
   return (
-    <div className='bg-orange-100'>
+    <div className='bg-orange-100 mt-10'>
         <div className='container flex flex-col-reverse md:flex-row items-center px-6 mx-auto pt-10 space-y-0 md:space-y-0 justify-between'>
             <div className='flex flex-col mb-10 space-y-12 md:w-1/2'>
                 <h2 className='max-w-md lg:text-xl border-b-2 pb-5 border-black mt-2 pt-10 text-center md:text-xl md:text-left'>

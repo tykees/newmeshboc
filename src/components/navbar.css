@@ -3,8 +3,11 @@
 .navbar {
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
   align-items: center;
-  padding: 1rem;
+  padding: 0.5rem;
   color: #000000;
   font-family: 'Poppins';
   background: #f1b070;
@@ -18,7 +21,7 @@
 
 
 .navbar .logo img {
-    margin-left: 2rem;
+    margin-left: 0.5rem;
 }
 
 .links {

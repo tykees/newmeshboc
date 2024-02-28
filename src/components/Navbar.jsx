@@ -41,7 +41,7 @@ const Navbar = () => {
     <nav className="navbar shadow-sm">
       <div className="logo">
         <Link href={'/'} className="links w-[50px]">
-          <Image className='w-[150px]' src={Logo} alt="" />
+          <Image className='w-[120px]' src={Logo} alt="" />
         </Link>
       </div>
 

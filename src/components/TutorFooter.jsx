@@ -9,12 +9,12 @@ let Year = theYear.getFullYear();
 
 const TutorFooter = () => {
   return (
-    <footer className="bg-black text-white py-12">
+    <footer className="bg-black text-white px-4 py-12">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         {/* Column 1 */}
         <div>
         <Image className='w-[150px]' src={Logo} alt="Logo"/>
-          <h2 className="text-xl mt-4 font-thin mb-4">We care always!</h2>
+          <h2 className="text-sm mt-4 font-thin mb-4">Completeness to education!</h2>
         </div>
 
         {/* Column 2 */}
@@ -53,7 +53,7 @@ const TutorFooter = () => {
       </div>
 
       <div className="mt-8 text-center">
-        <p>&copy; {Year} Tutor Website. All rights reserved.</p>
+        <p>&copy; {Year} Resplendent Tutors. All rights reserved.</p>
       </div>
     </footer>
   );

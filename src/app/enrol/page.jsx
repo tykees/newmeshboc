@@ -7,7 +7,7 @@ import Studentbtn from '../../components/Studentbtn';
 const Enrol = () => {
   return (
     <div>
-        <div className='container mx-auto flex flex-col md:flex-row justify-around items-center'>
+        <div className='container mx-auto mt-10 flex flex-col md:flex-row justify-around items-center'>
             <div>
                 <Image className='w-[350px] p-5' src={Book} alt="Book"/>
             </div>
