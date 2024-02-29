@@ -20,10 +20,24 @@ const TutorFooter = () => {
         {/* Column 2 */}
         <div>
           <h2 className="text-xl font-semibold mb-4">Subjects</h2>
-          <ul className="space-y-2">
-            <li>Our Mission</li>
-            <li>Meet the team</li>
-            <li>Science</li>
+          <ul className="space-y-2 text-slate-500">
+            <li>Mathematics</li>
+            <li>English</li>
+            <li>Chemistry</li>
+            <li>Economic</li>
+            <li>French</li>
+            <li>Physics</li>
+            <li>Geography</li>
+            <li>Biology</li>
+            <li>Basic Programming</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Wordpress</li>
+            <li>Full Stack</li>
+            <li>Musical Instruments</li>
+
+
             {/* Add more subjects as needed */}
           </ul>
         </div>

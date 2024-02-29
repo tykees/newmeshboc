@@ -101,9 +101,9 @@ const Subjects = () => {
   return (
     <>
     <div id='subjects'>
-    <h1 className='text-center text-4xl font-semibold mt-5 pt-5'>Subjects</h1>
+    <h1 className='text-center text-4xl font-semibold mt-5 pt-5 head_text'>Subjects</h1>
     <p className='text-center mx-auto mt-4 max-w-[700px]'>Making sure that those interested in improving in various subjects can readily access all the necessary help they need to learn and grow</p>
-    <div className='container flex text-center flex-wrap flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 justify-between'>
+    <div className='container flex text-center flex-wrap flex-col md:flex-row items-center px-6 mx-auto mt-10 justify-between'>
   {resSubjects.map((item, index) => (
     <div className='mb-4' key={index}>
       <Link href={item.link}>

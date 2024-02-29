@@ -26,11 +26,11 @@ const Exams = () => {
   return (
     <> 
     <div className='bg-blue-600 h-[inherit] mt-20 flex flex-col items-center'>
-    <h2 className=' text-center mt-5 py-5 text-white font-bold text-3xl'>Are you preparation for...</h2>
+    <h2 className=' text-center mt-5 py-5 text-white font-bold text-3xl head_text'>Are you preparation for...</h2>
     <div className='container mx-auto flex flex-wrap justify-between'>
         {allExams.map((item, index) => (
             <div className='text-center' key={index}>
-                <p className='mx-5 text-l mt-5 border text-white hover:text-black hover:bg-orange-100 p-2 rounded shadow-md'>{item.title}</p>
+                <p className='mx-5 text-l mt-5  text-white p-2 rounded shadow-md'>{item.title}</p>
             </div>
         ))}
     </div>

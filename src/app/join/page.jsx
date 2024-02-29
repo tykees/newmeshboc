@@ -8,10 +8,15 @@ const Join = () => {
     <div className='bg-orange-100 mt-10'>
         <div className='container flex flex-col-reverse md:flex-row items-center px-6 mx-auto pt-10 space-y-0 md:space-y-0 justify-between'>
             <div className='flex flex-col mb-10 space-y-12 md:w-1/2'>
-                <h2 className='max-w-md lg:text-xl border-b-2 pb-5 border-black mt-2 pt-10 text-center md:text-xl md:text-left'>
-                    <span className='text-2xl font-bold pb-5'>The Team</span> <br/>
-                    The Resplendent Team shares a common trait: audacity. We are a collective of daring pioneers who fearlessly challenge the status quo. We constantly push boundaries, defy limits, and pursue extraordinary achievements. Our team represents a vibrant blend of diverse talents and backgrounds, collaborating harmoniously to innovate and impact the world.
-                </h2>
+                <p className='max-w-md lg:text-xl border-b-2 pb-5 border-black mt-2 pt-10 text-center md:text-xl md:text-left'>
+                    <span className='text-xl font-bold pb-5 head_text'>Long term goals</span> <br/> 
+                    <p>In the long run rendering free tutoring services to those who are less privileged through the help of NGOs and zealous resplendent helpers.</p>
+                    <p>
+                    <br/>
+                    <span className='text-xl font-bold pb-5 head_text'>Extra role:</span> <br/> 
+                    Giving back, by going to schools, teaching kids how not to struggle, creating awareness on the basic necessities to life, choosing a career... e.t.c through lively  presentations by an exquisitely trained team of Resplendent tutors.
+                    If this appeals to you as a tutor? Sign up</p>
+                </p>
                 <div className="flex justify-center md:justify-start">
                     <JoinusBtn/>
                 </div>

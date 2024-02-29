@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,6 +10,10 @@
     height: inherit;
     background: #f1b070;
     background: linear-gradient(135deg, #f6d7b5, #b5d0f9);
+}
+
+.head_text {
+  font-family: 'Ubuntu';
 }
 
 .bg_about {
