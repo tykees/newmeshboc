@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Group from '../../../public/groupnobg.png';
 import Link from 'next/link';
 import Whitney from '../../../public/Whitney.png';
-
+import AboutImg from '../../../public/about.jpg';
 
 const About = () => {
   return (
@@ -16,6 +16,9 @@ const About = () => {
             <p className='font-semibold text-xl pt-5 head_text'>Where we started</p>
             
             Resplendent tutors enterprise came into existence by November 2017. It&apos;s name Resplendent is to refurbish (bring out the beauty of education making it new and better) especially here in Nigeria.</p>
+        </div>
+        <div className='mt-10'>
+          <Image src={AboutImg} alt="Students"/>
         </div>
         <div className='container px-5 mx-auto'>
           <h2 className='text-xl font-semibold mt-5 pt-5 head_text'>Long term goals</h2>
@@ -39,7 +42,7 @@ const About = () => {
 
         </div>
         <div className=' px-10 bg-blue-600 mt-20 py-10 flex flex-col justify-center items-center text-white text-2xl'>
-            <p className='mb-5 pb-5 head_text'>&quot;Education is the key that unlocks the door to endless possibilities and empowers minds to soar.&quot;.</p>
+            <p className='mb-5 pb-5 text-center head_text'>&quot;In my years of tutoring, I discovered that lack of confidence is the cause of many failures which comes from an overload of proof that you cannot do it. To change that, one proof that you can do it is needed which will lead to many other proofs hence building confidence and invariably success.&quot;.</p>
             <p className='text-sm'>Whiney Alexander</p>
             <p className='text-left text-sm'>Founder</p>
         </div>

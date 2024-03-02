@@ -9,6 +9,9 @@ const Join = () => {
         <div className='container flex flex-col-reverse md:flex-row items-center px-6 mx-auto pt-10 space-y-0 md:space-y-0 justify-between'>
             <div className='flex flex-col mb-10 space-y-12 md:w-1/2'>
                 <p className='max-w-md lg:text-xl border-b-2 pb-5 border-black mt-2 pt-10 text-center md:text-xl md:text-left'>
+                <span className='text-xl font-bold pb-5 head_text'>The Team</span> <br/> 
+                    <p>The Resplendent Team shares a common trait: audacity. We are a collective of daring individuals who fearlessly challenge the status quo. We constantly push boundaries, and pursue extraordinary achievements.</p>
+                    <br/>
                     <span className='text-xl font-bold pb-5 head_text'>Long term goals</span> <br/> 
                     <p>In the long run rendering free tutoring services to those who are less privileged through the help of NGOs and zealous resplendent helpers.</p>
                     <p>
