@@ -13,7 +13,7 @@ const Company = () => {
                     <button className='px-5 py-3 border mt-5'>For Business</button>
                 </div>
                 <div>
-                    <Image src={Catt}></Image>
+                    <Image src={Catt} alt='asset'></Image>
                 </div>
             </div>
         </div>

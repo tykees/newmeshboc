@@ -7,7 +7,7 @@ const page = () => {
       <div className='container mt-20 mx-auto'>
         <div className='flex flex-col mx-8 border p-10 shadow-lg mb-10'>
           <p className='text-3xl font-extrabold pb-10'>Exploring the Differences: Web2 vs. Web3</p>
-        <Image src={Web3}></Image>
+        <Image className='w-auto'  src={Web3} alt='post img'></Image>
         <p className='text-2xl mt-5 font-bold'>Introduction</p>
           <p className='mt-5 text-justify'>The evolution of the internet has seen significant shifts in how we interact with digital technologies. Web2 and Web3 represent two distinct phases in this evolution, each with its own characteristics and implications for users and developers alike. In this article, we&apos;ll delve into the differences between Web2 and Web3, exploring their features, technologies, and potential impact on the future of the internet.</p>
 

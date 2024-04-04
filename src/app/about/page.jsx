@@ -23,20 +23,20 @@ const About = () => {
         </div>
         <div className='container px-5 mt-20 mx-auto flex flex-col-reverse md:flex-row justify-around items-start'>
             <div className='text-white'>
-            <p >Meshboc is a full-service development and quality assurance firm that specializes in developing time-sensitive and creative, mobile, and web applications. We provide technical knowledge, excellent engineering talent, rigorous best practices, a commitment to protecting client's intellectual property. 
+            <p >Meshboc is a full-service development and quality assurance firm that specializes in developing time-sensitive and creative, mobile, and web applications. We provide technical knowledge, excellent engineering talent, rigorous best practices, a commitment to protecting client&apos;s intellectual property. 
             <br/>
             <br/>
             Meshboc has successfully delivered well over to many of clients. Among our customers are large corporations, dynamic startups, blockchain communities, tech companies, digital innovators, financial services providers, and publishers.
             </p>
             
          <p className='mt-5'>
-         We've perfected a simple, cost-effective method for engaging and exiting development and quality assurance processes at the correct time and with the necessary resources. Our broad experience has given us the ability to create quick, cost-effective solutions that integrate smoothly with product and business strategy, infrastructure analysis, architecture, UX design, rapid development, blockchain development (smart-contracts), functional QA and many more.</p>
+         We&apos;ve perfected a simple, cost-effective method for engaging and exiting development and quality assurance processes at the correct time and with the necessary resources. Our broad experience has given us the ability to create quick, cost-effective solutions that integrate smoothly with product and business strategy, infrastructure analysis, architecture, UX design, rapid development, blockchain development (smart-contracts), functional QA and many more.</p>
             </div>
             {/* <Image className='w-[400px]' src={CEO} alt=""/> */}
 
         </div>
         <div className=' px-10 bg-cyan-500 mt-20 py-10 flex flex-col justify-center items-center text-white text-2xl'>
-            <p className='mb-5 pb-5 text-center head_text'>&quot;Software development is not just about writing code; it's about crafting solutions that shape the future.&quot;.</p>
+            <p className='mb-5 pb-5 text-center head_text'>&quot;Software development is not just about writing code; it&apos;s about crafting solutions that shape the future.&quot;.</p>
             <p className='text-sm'>Femi Michael Balogun</p>
             <p className='text-left text-sm'>CEO</p>
         </div>

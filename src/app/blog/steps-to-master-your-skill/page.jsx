@@ -7,7 +7,7 @@ const page = () => {
       <div className='container mt-20 mx-auto'>
         <div className='flex flex-col mx-8 border p-10 shadow-lg mb-10'>
           <p className='text-3xl font-extrabold pb-10'>Steps to Master Your Skill: A Simple Guide to Getting Better</p>
-        <Image src={Learn}></Image>
+        <Image className='w-auto' src={Learn} alt='post img'></Image>
         <p className='text-2xl mt-5 font-bold'>Introduction</p>
           <p className='mt-5 text-justify'>Becoming really good at something takes time and effort. Whether you want to be great at your job, a hobby, or something new, there are steps you can take to get there. In this article, we'll talk about simple ways you can improve your skills and reach your goals.</p>
 

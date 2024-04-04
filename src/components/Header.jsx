@@ -19,7 +19,7 @@ const Header = () => {
                 </div>
             </div>
             <div className='md:w-1/2'>
-                <Image className='w-[800px]' src={AI} alt="" />
+                <Image className='w-[800px]' src={AI} alt="header" />
                 {/* <Enrol/> */}
             </div>
         </div>

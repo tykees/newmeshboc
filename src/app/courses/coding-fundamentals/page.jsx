@@ -76,7 +76,7 @@ const Page = () => {
             <div>
                 <Image className='w-[350px] p-5' src={Fundamentals} alt="Book"/>
                 <p className='text-center text-2xl font-bold'>Coding Fundamentals</p>
-                <p>Master all the coding skills you need to build websites, write programs, and operate databases. You'll learn how to build websites from scratch in HTML, get certified in SQL, the international standard language for databases, and specialize in Python, the world's fastest-growing programming language . No prior coding experience is necessary.</p>
+                <p>Master all the coding skills you need to build websites, write programs, and operate databases. You&apos;ll learn how to build websites from scratch in HTML, get certified in SQL, the international standard language for databases, and specialize in Python, the world&apos;s fastest-growing programming language . No prior coding experience is necessary.</p>
             </div>
             <div>
                 <h1 className='mt-5 text-l font-semibold'>Submit Your Request or Get a Quick Response on <br/> Whatsapp</h1>

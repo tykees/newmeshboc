@@ -105,7 +105,7 @@ const Subjects = () => {
     <div className='mb-4' key={index}>
       <Link href={item.link}>
         <div className='flex flex-col justify-center rounded-lg items-center shadow-lg border w-[320px] h-[250px] md:w-[200px] text-center p-2'>
-          <Image className='w-[100px] h-[100px]' src={item.bgImage}></Image>
+          <Image className='w-[100px] h-[100px]' src={item.bgImage} alt='sub Img'></Image>
           <p className='my-3 text-xl text-white font-bold'>{item.title}</p>
           {/* <button className='flex justify-center button mt-2 hover:animate-bounce text-white hover:shadow-lg'>Enrol</button> */}
         </div>

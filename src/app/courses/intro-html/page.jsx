@@ -52,7 +52,7 @@ const Page = () => {
             <div>
                 <Image className='w-[350px] p-5' src={HTMLImg} alt="Book"/>
                 <p className='text-center text-2xl font-bold'>Introduction To HTML</p>
-                <p>HTML is at the heart of every web page. It's beginner-friendly and knowing the basics is useful for anyone working in digital design, marketing, content and more. If you are interested in front-end web development, this course is a great place to start! You don't need any previous coding experience, and we have plenty of other courses for you to expand your knowledge once you're done, including CSS and JavaScript.</p>
+                <p>HTML is at the heart of every web page. It&apos;s beginner-friendly and knowing the basics is useful for anyone working in digital design, marketing, content and more. If you are interested in front-end web development, this course is a great place to start! You don&apos;t need any previous coding experience, and we have plenty of other courses for you to expand your knowledge once you&apos;re done, including CSS and JavaScript.</p>
             </div>
             <div>
                 <h1 className='mt-5 text-l font-semibold'>Submit Your Request or Get a Quick Response on <br/> Whatsapp</h1>

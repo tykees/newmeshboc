@@ -7,7 +7,7 @@ const page = () => {
       <div className='container mt-20 mx-auto'>
         <div className='flex flex-col mx-8 border p-8 shadow-lg mb-10'>
           <p className='text-3xl font-extrabold pb-10'>Coding Vs Programming</p>
-        <Image className='w-auto' src={Coding}></Image>
+        <Image className='w-auto' src={Coding} alt='post image'></Image>
 
           <p className='text-2xl mt-5 font-bold'>Introduction</p>
           <p className='mt-5 text-justify'>In the world of computers and software, you often hear the terms coding and programming. But what do they really mean? Are they the same thing? Let&apos;s break it down in simple terms.</p>
