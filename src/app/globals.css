@@ -8,8 +8,9 @@
 
 .header {
     height: inherit;
-    background: #f1b070;
-    background: linear-gradient(135deg, #f6d7b5, #b5d0f9);
+    /* background: #f1b070;
+    background: linear-gradient(135deg, #f6d7b5, #b5d0f9); */
+    background-color: #06021b;
 }
 
 .head_text {
@@ -17,8 +18,28 @@
 }
 
 .bg_about {
-    background: #f1b070;
-    background: linear-gradient(135deg, #f6d7b5, #b5d0f9);
+  background-color: #06021b;
+}
+
+#subjects {
+  background-color: #0b052b;
+}
+
+.cert {
+  background-color: #06021b;
+}
+
+.resources {
+  background-color: #0b052b;
+}
+
+.company {
+  background-color: #00bec5;
+}
+
+.foot {
+  background-color: #06021b;
+
 }
 
 .button {

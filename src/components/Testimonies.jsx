@@ -3,22 +3,22 @@ import Image from 'next/image';
 
 const dataTestimonie = [
     {
-        name: "Mrs F. Odili",
-        testimony: "Both our kids have greatly improved academically and character wise, I am impressed And happy with your service God bless you for all you do."
+        name: "Cynthia Gerald",
+        testimony: "lorem try"
     },
     {
-        name: "Mrs M. Petrolina",
-        testimony: "My daughter is more studious now and enjoys reading because of your guidance. Not to mention the remarkable change in her grades. I can not thank you enough for a job well done. Thank you."
+        name: "Femi Balogun",
+        testimony: "Lorem"
     },
     {
-        name: "Mrs C. Onyaeze",
-        testimony: "With your guidance my 4years old daughter learnt to read beautifully in a space of one month. Best referral ever... you guys are indeed the best. God bless you."
+        name: "Colling Diamond",
+        testimony: "Try this"
     },
 ]
 
 const Testimonies = () => {
   return (
-    <div className='bg-slate-50'>
+    <div className=''>
         <p className='text-center pt-20 pt text-4xl head_text'>People say we know our craft</p>
         <p className='text-slate-600 text-center text-l'>See proof here!</p>
         <div className='mx-4'>

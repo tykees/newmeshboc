@@ -1,5 +1,7 @@
-import Exams from "@/components/Exams";
+import Cert from "@/components/Cert";
+import Company from "@/components/Company";
 import Header from "@/components/Header";
+import Resources from "@/components/Resources";
 import Subjects from "@/components/Subjects";
 import Testimonies from "@/components/Testimonies";
 export default function Home() {
@@ -7,8 +9,11 @@ export default function Home() {
     <main>
       <Header/>
       <Subjects/>
-      <Exams/>
+      <Company/>
+      <Cert/>
+      <Resources/>
       <Testimonies/>
+
     </main>
   );
 }

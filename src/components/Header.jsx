@@ -1,24 +1,26 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link';
-import Education from '../../public/school.png';
+import AI from '../../public/aug.png';
+// import Enrol from './Enrol'
 
 const Header = () => {
   return (
     <div className='header mt-10'>
-        <div className='container flex flex-col-reverse md:flex-row items-center px-6 mx-auto pt-10 space-y-0 md:space-y-0 justify-between'>
+        <div className='container flex flex-col-reverse justify-around md:flex-row px-6 mx-auto pt-10 space-y-0 md:space-y-0'>
             <div className='flex flex-col mb-32 space-y-12 md:w-1/2'>
-                <h1 className='max-w-md text-4xl lg:text-6xl mt-6 pt-10 font-bold text-center md:text-5xl md:text-left head_text'>Your Path to Unending Growth
+                <h1 className='max-w-md text-white text-4xl lg:text-6xl mt-6 pt-10 font-bold text-center md:text-5xl md:text-left head_text'>USING THE NEXT GENERATION TECHNOLOGY
                 </h1>
-                <p className="max-w-sm text-center text-dark md:text-left">
-                 Resplendent Tutors are the sure plug to unending intellectual growth.
+                <p className="max-w-sm text-center text-white md:text-left">
+                 Meshboc are the sure plug to unending intellectual growth.
                 </p>
                 <div className="flex justify-center md:justify-start">
-              <Link href={'/enrol'}>   <a href="#" className="p-3 px-6 pt-2 text-white bg-blue-600 hover:animate-bounce rounded-lg baseline hover:bg-blue-400">Get Started</a> </Link> 
+              <Link href={'/enrol'}>   <a href="#" className="py-2 px-5 pt-2 text-black font-bold bg-cyan-500 hover:animate-bounce rounded-lg baseline hover:bg-cyan-300">Get Started</a> </Link> 
                 </div>
             </div>
             <div className='md:w-1/2'>
-                <Image className='w-[800px]' src={Education} alt="" />
+                <Image className='w-[800px]' src={AI} alt="" />
+                {/* <Enrol/> */}
             </div>
         </div>
     </div>

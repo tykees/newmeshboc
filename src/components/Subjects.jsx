@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { PiMathOperationsLight } from "react-icons/pi";
 import { RiEnglishInput } from "react-icons/ri";
 import { SlChemistry } from "react-icons/sl";
@@ -15,84 +16,80 @@ import { TbBrandJavascript } from "react-icons/tb";
 import { FaWordpress } from "react-icons/fa6";
 import { SiCodeium } from "react-icons/si";
 import { GiMusicalScore } from "react-icons/gi";
+import HTMLImg from '../../public/html.png';
+import CSSImg from '../../public/css.png';
+import JSImg from '../../public/js.png';
+import FullImg from '../../public/fullstack.png';
+import FE from '../../public/fe.png';
+import BE from '../../public/be.png';
+import Fundamental from '../../public/fundamentals.png';
+import Python from '../../public/python.png';
+import NEXTT from '../../public/next.png';
+import TS from '../../public/ts.png';
+import CW from '../../public/cw.png';
 
 
 const resSubjects = [
     {
-      icon: <PiMathOperationsLight/>,
-      title: "MATHEMATICS",
-      link: "/enrol",
+      bgImage: FullImg,
+      title: "FULL STACK ENGINEERING",
+      link: "/courses/full-stack-development",
     },
     {
-        icon: <RiEnglishInput/>,
-        title: "ENGLISH",
-        link: "/enrol",
+      bgImage: FE,
+        title: "FRONT-END ENGINEERING",
+        link: "/courses/front-end-development",
     },
     {
-        icon: <SlChemistry/>,
-        title: "CHEMISTRY",
-        link: "/enrol",
+      bgImage: BE,
+        title: "BACKEND ENGINEERING",
+        link: "/courses/backend-development",
     },
     {
-        icon: <GiTakeMyMoney/>,
-        title: "ECONOMICS",
-        link: "/enrol",
+        bgImage: Fundamental,
+        title: "CODING FUNDAMENTALS",
+        link: "/courses/coding-fundamentals",
     },
     {
-        icon: <GiFrenchHorn/>,
-        title: "FRENCH",
-        link: "/enrol",
+        bgImage: HTMLImg,
+        title: "INTRO TO HTML",
+        link: "/courses/intro-html",
     },
     {
-        icon: <GiPendulumSwing/>,
-        title: "PHYSICS",
-        link: "/enrol",
-    },
-    {
-        icon: <GiMountaintop/>,
-        title: "GEOGRAPHY",
-        link: "/enrol",
-    },
-    {
-        icon: <GiHeartOrgan/>,
-        title: "BIOLOGY",
-        link: "/enrol",
-    },
-    {
-        icon: <FaLaptopCode/>,
-        title: "BASIC PROGRAMMING",
-        link: "/enrol",
-    },
-    {
-        icon: <BsFiletypeHtml/>,
-        title: "HTML",
-        link: "/enrol",
-    },
-    {
-        icon: <BsFiletypeCss/>,
-        title: "CSS",
-        link: "/enrol",
-    },
-    {
-        icon: <TbBrandJavascript/>,
-        title: "JAVASCRIPT",
-        link: "/enrol",
-    },
-    {
-        icon: <FaWordpress/>,
-        title: "WORDPRESS",
-        link: "/enrol",
-    },
-    {
-        icon: <SiCodeium/>,
-        title: "FULL STACK",
-        link: "/enrol",
-    },
-    {
-        icon: <GiMusicalScore/>,
-        title: "MUSICAL INSTRUMENTS",
-        link: "/enrol",
-    },
+      bgImage: CSSImg,
+      title: "INTRO TO CSS",
+      link: "/courses/intro-css",
+  },
+  {
+    bgImage: Python,
+    title: "INTRO TO PYTHON",
+    link: "/courses/intro-python",
+},
+{
+  bgImage: JSImg,
+  title: "INTRO TO JAVASCRIPT",
+  link: "/courses/intro-to-javascript",
+},
+{
+  bgImage: JSImg,
+  title: "JAVASCRIPT INTERMEDIARY",
+  link: "/courses/javascript-inter",
+},
+{
+  bgImage: NEXTT,
+  title: "NEXT JS",
+  link: "/courses/next",
+},
+{
+  bgImage: TS,
+  title: "TYPESCRIPT",
+  link: "/courses/typescript",
+},
+{
+  bgImage: CW,
+  title: "CONTENT WRITING",
+  link: "/courses/content-writing",
+},
   
 ];
 
@@ -101,16 +98,16 @@ const Subjects = () => {
   return (
     <>
     <div id='subjects'>
-    <h1 className='text-center text-4xl font-semibold mt-5 pt-5 head_text'>Subjects</h1>
-    <p className='text-center mx-auto mt-4 max-w-[700px]'>Making sure that those interested in improving in various subjects can readily access all the necessary help they need to learn and grow</p>
+    <h1 className='text-center text-4xl font-semibold pt-5 text-white head_text'>Courses</h1>
+    <p className='text-center mx-auto mt-4 max-w-[600px] text-white'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas rerum odit commodi.</p>
     <div className='container flex text-center flex-wrap flex-col md:flex-row items-center px-6 mx-auto mt-10 justify-between'>
   {resSubjects.map((item, index) => (
     <div className='mb-4' key={index}>
       <Link href={item.link}>
-        <div className='flex flex-col justify-center hover:bg-blue-100 rounded-lg items-center shadow-lg border w-[300px] h-[250px] text-center p-2'>
-          <p className='font-bold flex justify-center items-center text-6xl hover:text-blue-600'>{item.icon}</p>
-          <p className='my-3 font-bold'>{item.title}</p>
-          <button className='flex justify-center button mt-2 hover:animate-bounce hover:border-white hover:shadow-lg'>Enrol</button>
+        <div className='flex flex-col justify-center rounded-lg items-center shadow-lg border w-[320px] h-[250px] md:w-[200px] text-center p-2'>
+          <Image className='w-[100px] h-[100px]' src={item.bgImage}></Image>
+          <p className='my-3 text-xl text-white font-bold'>{item.title}</p>
+          {/* <button className='flex justify-center button mt-2 hover:animate-bounce text-white hover:shadow-lg'>Enrol</button> */}
         </div>
       </Link>
     </div>

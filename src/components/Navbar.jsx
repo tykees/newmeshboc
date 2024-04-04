@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import './navbar.css';
-import Logo from '../../public/replendent.png';
+import Logo from '../../public/intechwhite-1.png';
 
 
 
@@ -38,7 +38,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar shadow-sm">
+    <nav className="navbar shadow-sm ">
       <div className="logo">
         <Link href={'/'} className="links w-[50px]">
           <Image className='w-[120px]' src={Logo} alt="" />
@@ -52,29 +52,44 @@ const Navbar = () => {
           <div className={`line ${showMenu ? 'open' : ''}`} />
         </div>
       ) : (
-        <ul className="nav-links container flex items-center gap-3 justify-center text-center">
-          <li>
-            <Link href={'/'} className="links">
-              Home
-            </Link>
-          </li>
+        <ul className="nav-links text-md container flex items-center gap-3 justify-center text-center">
           <li>
             <Link href={'/#subjects'} className="links">
-              Subjects
+              Resources
             </Link>
           </li>
           <li>
             <Link href={'/about'} className="links">
-              Why Resplendent?
+              Why Meshboc?
             </Link>
           </li>
           <li>
-            <Link href={'/join'} className="links">
-              Join Us
+            <Link href={'/'} className="links">
+              Community
             </Link>
           </li>
           <li>
-            <Link className="p-3 ml-20 flex justify-end px-6 pt-2 text-white bg-blue-600 border rounded-lg baseline hover:bg-blue-400" href={'/enrol'}>Get Started </Link>
+            <Link href={'/business'} className="links">
+              Services
+            </Link>
+          </li>
+          <li>
+            <Link href={'/'} className="links">
+              Courses
+            </Link>
+          </li>
+          <li>
+            <Link href={'/'} className="links">
+              Certificates
+            </Link>
+          </li>
+          <li>
+            <Link href={'/'} className="links">
+              FAQs
+            </Link>
+          </li>
+          <li className='justify-end'>
+            <Link href={'/enrol'} className="p-2 ml-20 flex text-md justify-end px-6 pt-1 text-black font-medium bg-cyan-500 rounded-md hover:bg-cyan-300 baseline" onClick={handleMenuClick}>Register</Link>
           </li>
         </ul>
       )}
@@ -91,22 +106,37 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link href={'/#subjects'} className="links font-normal text-2xl" onClick={handleMenuClick}>
-                Subjects
-              </Link>
-            </li>
-            <li>
               <Link href={'/about'} className="links font-normal text-2xl" onClick={handleMenuClick}>
-                Why Resplendent Tutors?
+                Why Meshboc
               </Link>
             </li>
             <li>
-              <Link href={'/join'} className="links font-normal text-2xl" onClick={handleMenuClick}>
-                Join Us
+              <Link href={'/'} className="links font-normal text-2xl" onClick={handleMenuClick}>
+                Community
               </Link>
             </li>
             <li>
-            <Link className="p-3 ml-20 flex justify-end px-6 pt-2 text-white bg-blue-600 border rounded-lg baseline hover:bg-blue-400" href={'/enrol'}>Get Started </Link>
+              <Link href={'/business'} className="links font-normal text-2xl" onClick={handleMenuClick}>
+                Services
+              </Link>
+            </li>
+            <li>
+              <Link href={'/'} className="links font-normal text-2xl" onClick={handleMenuClick}>
+                Courses
+              </Link>
+            </li>
+            <li>
+              <Link href={'/'} className="links font-normal text-2xl" onClick={handleMenuClick}>
+                Certificate
+              </Link>
+            </li>
+            <li>
+              <Link href={'/'} className="links font-normal text-2xl" onClick={handleMenuClick}>
+                FAQs
+              </Link>
+            </li>
+            <li className='justify-end'>
+            <Link href={'/enrol'} className="p-2 ml-20 flex text-2xl justify-end px-6 pt-1 text-black font-medium bg-cyan-500 rounded-md hover:bg-cyan-300 baseline" onClick={handleMenuClick}>Register</Link>
           </li>
           </ul>
         </div>

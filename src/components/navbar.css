@@ -8,10 +8,10 @@
   width: 100%;
   align-items: center;
   padding: 0.5rem;
-  color: #000000;
+  color: #f6f2f2;
   font-family: 'Poppins';
-  background: #f1b070;
-  background: linear-gradient(135deg, #f6d7b5, #dae8ff);
+  background: #06021b;
+  /* background: linear-gradient(135deg, #f6d7b5, #dae8ff); */
 }
 
 
@@ -21,12 +21,12 @@
 
 
 .navbar .logo img {
-    margin-left: 0.5rem;
+    margin-left: 5.5rem;
 }
 
 .links {
     text-decoration: none;
-  color: #000000;
+  color: #f6ecec;
 }
 
 /* .logo {
@@ -58,7 +58,7 @@
 .line {
   height: 3px;
   width: 25px;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(243, 238, 238);
   margin: 5px 0;
   transition: 0.4s;
 }
@@ -124,7 +124,7 @@
     right: 0;
     height: 100%;
     width: 100%; /* Adjust this value based on your design */
-    background-color: rgb(251, 251, 251); /* Set the background color */
+    background-color: rgb(0, 0, 0); /* Set the background color */
     transition: transform 0.3s ease-in-out; /* Add a transition effect */
     transform: translateX(100%);
   }
@@ -139,7 +139,7 @@
     top: 10px;
     right: 10px;
     font-size: 40px;
-    color: #000000;
+    color: #ffffff;
     outline: none;
     border: none;
     cursor: pointer;
@@ -147,3 +147,9 @@
   
   /* Rest of your styles... */
   
+
+  @media screen and (max-width: 638px) {
+    .navbar .logo img {
+      margin-left: 0.5rem;
+  }
+  }

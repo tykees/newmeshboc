@@ -12,8 +12,8 @@ import TutorFooter from "@/components/TutorFooter";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Resplendent Tutors",
-  description: "We build you for the future",
+  title: "Intech Meshboc",
+  description: "Using and Teching the Technology of the future",
 };
 
 export default function RootLayout({ children }) {
