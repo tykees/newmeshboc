@@ -39,12 +39,12 @@ const Services = [
 
 const Page = () => {
   return (
-    <div className='bg-cyan-100 mt-10'>
+    <div className='bg-cyan-900 mt-10'>
         <div className='container flex flex-col-reverse md:flex-row items-center px-6 mx-auto pt-10 space-y-0 md:space-y-0 justify-between'>
             <div className='flex flex-col mb-10 space-y-12 md:w-1/2'>
                 <p className='max-w-md lg:text-xl border-b-2 pb-5 border-black mt-2 pt-10 text-center md:text-xl md:text-left'>
                 <span className='text-xl font-bold pb-5 head_text'>OUR SERVICES</span> <br/> 
-                    <p>Let&apos;s work together to create a solution that realizes your vision. You can build exactly what you need with our experienced and professional team.</p>
+                    <p className='text-white'>Let&apos;s work together to create a solution that realizes your vision. You can build exactly what you need with our experienced and professional team.</p>
                     </p>
                     <ServiceBtn/>
             </div>

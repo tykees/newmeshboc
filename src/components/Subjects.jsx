@@ -99,7 +99,8 @@ const Subjects = () => {
     <>
     <div id='subjects'>
     <h1 className='text-center text-4xl font-semibold pt-5 text-white head_text'>Courses</h1>
-    <p className='text-center mx-auto mt-4 max-w-[600px] text-white'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas rerum odit commodi.</p>
+    <p className='text-center mx-auto mt-4 max-w-[600px] text-white'>Get Access to variety of courses and
+ learning experiences that are designed for you. Master coding through proper mentoring.</p>
     <div className='container flex text-center flex-wrap flex-col md:flex-row items-center px-6 mx-auto mt-10 justify-between'>
   {resSubjects.map((item, index) => (
     <div className='mb-4' key={index}>

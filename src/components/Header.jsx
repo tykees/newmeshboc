@@ -12,7 +12,7 @@ const Header = () => {
                 <h1 className='max-w-md text-white text-4xl lg:text-6xl mt-6 pt-10 font-bold text-center md:text-5xl md:text-left head_text'>USING THE NEXT GENERATION TECHNOLOGY
                 </h1>
                 <p className="max-w-sm text-center text-white md:text-left">
-                 Meshboc are the sure plug to unending intellectual growth.
+                 We build the future you desire with the right technology.
                 </p>
                 <div className="flex justify-center md:justify-start">
               <Link href={'/enrol'}>   <a href="#" className="py-2 px-5 pt-2 text-black font-bold bg-cyan-500 hover:animate-bounce rounded-lg baseline hover:bg-cyan-300">Get Started</a> </Link> 

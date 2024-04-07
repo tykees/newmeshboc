@@ -65,6 +65,8 @@ const Page = () => {
             <div>
                 <Image className='w-[350px] p-5' src={Fullstack} alt="Book"/>
                 <p className='text-center text-2xl font-bold'>Full Stack Engineering</p>
+                <p className='text-center text-2xl font-bold'>#60,000</p>
+                <p className='text-center text-2xl font-bold'>Duration: 3 Months</p>
             </div>
             <div>
                 <h1 className='mt-5 text-l font-semibold'>Submit Your Request or Get a Quick Response on <br/> Whatsapp</h1>
