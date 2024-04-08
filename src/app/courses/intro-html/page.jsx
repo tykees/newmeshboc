@@ -49,10 +49,11 @@ const Page = () => {
     <>
     <div className='h-full'>
         <div className='container mx-auto mt-10 flex flex-col md:flex-row justify-around items-center'>
-            <div>
+            <div className='rounded-lg py-3'>
                 <Image className='w-[350px] p-5' src={HTMLImg} alt="Book"/>
                 <p className='text-center text-2xl font-bold'>Introduction To HTML</p>
-                <p>HTML is at the heart of every web page. It&apos;s beginner-friendly and knowing the basics is useful for anyone working in digital design, marketing, content and more. If you are interested in front-end web development, this course is a great place to start! You don&apos;t need any previous coding experience, and we have plenty of other courses for you to expand your knowledge once you&apos;re done, including CSS and JavaScript.</p>
+                <p className='text-center text-cyan-800 text-xl py-3 font-bold'>#5,000</p>
+                <p className='text-center text-xl font-bold'>Duration: 2 Weeks</p>
             </div>
             <div>
                 <h1 className='mt-5 text-l font-semibold'>Submit Your Request or Get a Quick Response on <br/> Whatsapp</h1>
@@ -60,12 +61,12 @@ const Page = () => {
                 <Enroll/>
             </div>
         </div>
-        <p className='text-center text-2xl font-bold mt-10'>What To Learn</p>
+        <p className='text-center text-2xl py-3 font-bold mt-10'>What To Learn</p>
       <div>
-        <div className=''>
+        <div className='container mx-auto'>
           <div className='flex justify-start items-start flex-wrap'>
             {ThingsToLearn.map((item, index)=> (
-              <div className='bg-slate-100 w-[150px] rounded-lg m-2 px-4 py-5 mb-3' key={index}>
+              <div className='bg-slate-100 w-full sm:w-[300px] max-h-[120px] rounded-lg m-2 px-4 py-5 mb-3' key={index}>
                 <p>{item.title}</p>
                 <p className='text-sm text-slate-500'>{item.desc}</p>
               </div>

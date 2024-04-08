@@ -19,7 +19,7 @@ const Servicebtn = () =>{
   return (
     <>
     <div>
-        <button className='hover:animate-bounce flex justify-center items-center rounded-lg px-8 py-3 text-white bg-cyan-400 hover:bg-cyan-800' onClick={() => handleCall()}> Quick Reach <BsWhatsapp className='ml-2'/> </button>
+        <button className='hover:animate-bounce flex justify-center items-center rounded-lg px-8 py-3 text-white bg-cyan-400 hover:bg-green-500' onClick={() => handleCall()}> WhatsApp <BsWhatsapp className='ml-2'/> </button>
     </div>
             
     </>

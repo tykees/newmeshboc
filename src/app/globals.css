@@ -71,6 +71,6 @@
     @apply flex flex-col gap-2;
   }
   
-  input {
+  input, select{
     @apply shadow-md px-6 py-2 border border-slate-300 outline-none 
   }

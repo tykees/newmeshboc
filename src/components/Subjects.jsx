@@ -72,7 +72,7 @@ const resSubjects = [
 },
 {
   bgImage: JSImg,
-  title: "JAVASCRIPT INTERMEDIARY",
+  title: "PRO JAVASCRIPT",
   link: "/courses/javascript-inter",
 },
 {

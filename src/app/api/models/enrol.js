@@ -3,7 +3,7 @@ import mongoose, { Schema} from "mongoose";
  const enrolSchema = new Schema({
     name: {
         type: String,
-        required: [true, "Name name is required"],
+        required: [true, "Name is required"],
         trim: true,
         minLength: [2, "Name must be larger than 2 characters"],
         maxLength: [50, "Name must be lesser than 50 characters"],
@@ -11,7 +11,7 @@ import mongoose, { Schema} from "mongoose";
   
     email: {
         type: String,
-        required: [true, "Whatsapp is required"],
+        required: [true, "Email is required"],
         match: [/^[\w.%+-]+@[\w.-]+\.[A-Za-z]{2,}$/i,
         "Invalid email address"],
     },
@@ -21,7 +21,7 @@ import mongoose, { Schema} from "mongoose";
     },
     subject: {
         type: String,
-        required: [true, "Subject(s) are required"],
+        required: [true, "Course is required"],
     },
   
     date: {

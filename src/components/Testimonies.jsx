@@ -3,16 +3,16 @@ import Image from 'next/image';
 
 const dataTestimonie = [
     {
-        name: "Cynthia Gerald",
-        testimony: "lorem try"
+        name: "Tom Gerald",
+        testimony: "Intech Meshboc is an excellent company. I know them for this. They built my business website and my son learn remotely from them and he is now building series of amazing applications."
     },
     {
-        name: "Femi Balogun",
-        testimony: "Lorem"
+        name: "Ojo Bimpe",
+        testimony: "I joined Meshboc in 2021 as a non tech person. I have no prior understanding of any terminology or having any technical skill. After training with Meshboc, I have been working remotely for companies across the world and I can boldly call myself a software developer."
     },
     {
-        name: "Colling Diamond",
-        testimony: "Try this"
+        name: "Ejike Bernard",
+        testimony: "Intech Meshboc is a company that have the all round value we need in the tech space. I learned to build full fledged applications, I now know how to trade digital assets, and I know how to build digital assets all through Meshboc."
     },
 ]
 

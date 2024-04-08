@@ -34,6 +34,11 @@ export default function Update() {
         setSuccess(success)
         console.log(error)
 
+        setTimeout(() => {
+            setError([]);
+            setSuccess(false);
+        }, 3000);
+
         if (success) {
             setName("")
             setEmail("")
@@ -43,29 +48,43 @@ export default function Update() {
     };
 
     return <>
-        <form onSubmit={handleSubmit} className="flex flex-col gap-4 w-auto">
+        <form onSubmit={handleSubmit} className="flex my-5 flex-col gap-4 w-auto">
             <div>
-                <label className="text-white" htmlFor="businessname">Full Name</label>
+                <label className="text-slate-500" htmlFor="businessname">Full Name</label>
                 <input onChange={(e) => setName(e.target.value)} value={name} type="text" id="Fullname"/>
             </div>
             <div>
-                <label className="text-white" htmlFor="email">Email</label>
+                <label className="text-slate-500" htmlFor="email">Email</label>
                 <input onChange={(e) => setEmail(e.target.value)} value={email} type="email" id="email" />
             </div>
             <div>
-                <label  className="text-white" htmlFor="businessphone">Phone</label>
+                <label  className="text-slate-500" htmlFor="businessphone">Phone</label>
                 <input onChange={(e) => setPhone(e.target.value)} value={phone} type="number" id="phone" />
             </div>
             <div>
-                <label  className="text-white" htmlFor="productone">Desired Subject(s)</label>
-                <input onChange={(e) => setSubject(e.target.value)} value={subject} type="text" id="productone" placeholder="" />
+                <label  className="text-slate-500" htmlFor="productone"></label>
+                <select className="text-slate-500"  onChange={(e) => setSubject(e.target.value)} value={subject}  type="text" id="productone" name="">
+                <option value="Select Course">Select Course</option>
+                    <option value="Full Stack Engineering">Full Stack Engineering</option>
+                    <option value="Frontend Engineering">Front End Engineering</option>
+                    <option value="Backend Engineering">Backend Engineering</option>
+                    <option value="Coding Fundamentals">Coding Fundamentals</option>
+                    <option value="Intro to HTML">Intro to HTML</option>
+                    <option value="Intro to CSS">Intro to CSS</option>
+                    <option value="Into to Python">Into to Python</option>
+                    <option value="Intro to JavaScript">Intro to JavaScript</option>
+                    <option value="Pro Javascript">Pro Javascript</option>
+                    <option value="Next Js">Next Js</option>
+                    <option value="TypeScript">TypeScript</option>
+                    <option value="Content writing">Content writing</option>
+                </select>
             </div>
             <button className=" p-3 font-bold text-black bg-cyan-500" type="submit">Send</button>
         </form>
-        <div className="bg-slate-100 flex flex-col">
+        <div className="bg-slate-100 text-sm flex flex-col">
   {error &&
     error.map((e, index) => (
-      <div key={index} className={`${success ? "text-green-800" : "text-red-600 "} px-5 text-xl py-2`}>
+      <div key={index} className={`${success ? "text-green-800" : "text-red-600"} px-5 text-md py-2`}>
         {e}
       </div>
     ))}
