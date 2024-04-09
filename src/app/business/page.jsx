@@ -55,7 +55,7 @@ const Page = () => {
         <div className='container mx-auto'>
         <div className='flex justify-around flex-wrap py-10'>
         {Services.map((item, index)=> (
-            <div className='flex flex-col bg-cyan-500 hover:animate-bounce justify-center rounded-lg items-center shadow-lg w-[200px] h-[250px] text-center p-2' key={index}>
+            <div className='flex flex-col bg-cyan-500 hover:animate-bounce my-5 justify-center rounded-lg items-center shadow-lg w-[200px] h-[250px] text-center p-2' key={index}>
                 <Image className='w-[150px]' src={item.BgImg} alt='img'></Image>
                <div className='mt-3 font-bold'>{item.title}</div>
             </div>

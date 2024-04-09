@@ -13,7 +13,7 @@ const Cert = () => {
         <div className='py-10'>
             <div className='flex justify-between mt-5 items-start flex-col-reverse md:flex-row'>
                  <div className='md:w-1/2'>
-                    <p className='text-white pt-16 ml-20 text-6xl'>Join learners worldwide and be Certified</p>
+                    <p className='text-white pt-16 ml-20 text-4xl sm:text-6xl'>Join learners worldwide and be Certified</p>
                     <Image className='pt-60' src={BgAsset} alt='asset'></Image>
                 </div>
                 <div className='md:w-1/2'>

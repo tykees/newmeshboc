@@ -11,6 +11,7 @@
     /* background: #f1b070;
     background: linear-gradient(135deg, #f6d7b5, #b5d0f9); */
     background-color: #06021b;
+    z-index: 2;
 }
 
 .head_text {

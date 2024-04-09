@@ -11,6 +11,7 @@
   color: #f6f2f2;
   font-family: 'Poppins';
   background: #06021b;
+  z-index: 1;
   /* background: linear-gradient(135deg, #f6d7b5, #dae8ff); */
 }
 
