@@ -12,16 +12,16 @@ const About = () => {
         <div className='container mx-auto flex flex-col md:flex-row justify-around items-center h-[200px]'>
             <p className='text-4xl px-5 text-cyan-400 head_text'>Our journey began in 2021…</p>
             <p className='max-w-[600px] text-cyan-300 px-5'> 
-            <p className='font-semibold text-cyan-300 text-xl pt-5 head_text'>Where we started</p>
+            <p className='text-cyan-300 text-lg pt-5 head_text'>We launched into the tech space to create solutions for the world and impact the next generation and we have been doing this ever since then.</p>
           </p>
         </div>
         <div className='mt-10'>
           <Image src={AboutImg} alt="Students"/>
         </div>
         <div className='container text-white px-5 mx-auto'>
-          <p className='text-white'> We provide end-to-end software development, quality assurance, and support services to a wide range of clients, established and startups at various stages of development.</p>
+          <p className='text-white pt-4'> We provide end-to-end software development, quality assurance, and support services to a wide range of clients, established and startups at various stages of development.</p>
         </div>
-        <div className='container px-5 mt-20 mx-auto flex flex-col-reverse md:flex-row justify-around items-start'>
+        <div className='container px-5 mt-5 mx-auto flex flex-col-reverse md:flex-row justify-around items-start'>
             <div className='text-white'>
             <p >Meshboc is a full-service development and quality assurance firm that specializes in developing time-sensitive and creative, mobile, and web applications. We provide technical knowledge, excellent engineering talent, rigorous best practices, a commitment to protecting client&apos;s intellectual property. 
             <br/>

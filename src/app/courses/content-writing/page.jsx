@@ -6,26 +6,53 @@ import CW from '../../../../public/cw.png'
 
 const ThingsToLearn = [
     {
-      title: "Basic css styling",
-      desc: "Learn the basic structure of a web page and see how you can help a web browser understand your content"
+      title: "Understanding Your Audience",
+      desc: "Tailoring your content to resonate with your audience ensures it's engaging and relevant."
     },
     {
-      title: "Headings, paragraphs",
-      desc: "Make your document easy to read and SEO-friendly by adding headings and paragraphs "
+      title: "Clarity and Conciseness",
+      desc: "Effective content communicates its message clearly and concisely."
     },
     {
-      title: "Text formatting",
-      desc: "Add style to your content with text formatting options like bold, italics, strikethrough, colors, etc."
+      title: "SEO Basics",
+      desc: "Search Engine Optimization (SEO) techniques help your content rank higher in search engine results."
     },
     {
-      title: "Elements and Attributes ",
-      desc: "Discover some of the most useful elements and attributes. Use them to create different information formats"
+      title: "Headline Writing",
+      desc: "A compelling headline grabs readers' attention and entices them to read further."
     },
     {
-      title: "Pictures",
-      desc: "A picture is worth a thousand words. Learn how to add images to your pages "
+      title: "Structuring Content",
+      desc: "Organize your content into clear sections with descriptive headings and subheadings."
     },
-   
+    {
+      title: "Storytelling",
+      desc: "Incorporating storytelling elements into your content helps captivate and engage readers emotionally."
+    },
+    {
+      title: "Grammar and Language Skills",
+      desc: "Strong grammar and language skills are essential for effective communication."
+    },
+    {
+      title: "Research Skills",
+      desc: "Conduct thorough research to gather accurate and credible information for your content."
+    },
+    {
+      title: "Call-to-Action (CTA)",
+      desc: "Every piece of content should have a clear call-to-action that prompts readers to take the desired action."
+    },
+    {
+      title: "Editing and Proofreading",
+      desc: "Editing and proofreading are crucial steps in the content writing process."
+    },
+    {
+      title: "Audience Engagement",
+      desc: "Foster engagement with your audience by encouraging comments, questions, and discussions."
+    },
+    {
+      title: "Adaptability",
+      desc: "Stay updated with industry trends, changes in algorithms, and evolving audience preferences."
+    },
     
 ]
 

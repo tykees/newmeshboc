@@ -8,7 +8,6 @@ import mongoose, { Schema} from "mongoose";
         minLength: [2, "Name must be larger than 2 characters"],
         maxLength: [50, "Name must be lesser than 50 characters"],
     },
-  
     email: {
         type: String,
         required: [true, "Email is required"],
@@ -22,6 +21,10 @@ import mongoose, { Schema} from "mongoose";
     subject: {
         type: String,
         required: [true, "Course is required"],
+    },
+    medium: {
+        type: String,
+        required: [true, "Medium is required"],
     },
   
     date: {

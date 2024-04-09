@@ -50,17 +50,15 @@ const Page = () => {
         <p className='text-center text-2xl font-bold py-3 mt-10'>What To Learn</p>
       <div>
         <div className='container mx-auto'>
-          <div className='flex justify-start items-start flex-wrap'>
+          {/* <div className='flex justify-start items-start flex-wrap'>
             {ThingsToLearn.map((item, index)=> (
               <div className='bg-slate-100 w-full sm:w-[300px] max-h-[120px] rounded-lg m-2 px-4 py-5 mb-3' key={index}>
                 <p>{item.title}</p>
                 <p className='text-sm text-slate-500'>{item.desc}</p>
               </div>
             ))}
-          </div>
-          {/* <div> 
-            <Image src={Book}></Image>
           </div> */}
+         
         </div>
       </div>
     </div>

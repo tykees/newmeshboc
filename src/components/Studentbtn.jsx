@@ -10,7 +10,7 @@ const Studentbtn = () =>{
   // Function to handle the "Call" button click
   const handleCall = () => {
     const message = `Hello, I'd like to know more about your courses.`;
-    const vendorNumber = '+2347059213315'; // Replace with the actual WhatsApp number
+    const vendorNumber = '+2348105197239'; // Replace with the actual WhatsApp number
     const whatsappLink = `https://wa.me/${vendorNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappLink, '_blank');
   };

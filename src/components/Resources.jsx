@@ -8,7 +8,7 @@ import Web3 from '../../public/web3.jpg'
 
 const Resources = () => {
   return (
-    <div className='resources'>
+    <div id='resources' className='resources'>
         <p className='text-center pt-5 text-4xl text-white'>Resources</p>
         <div className='container mx-auto py-10 gap-5 flex justify-center items-center flex-col md:flex-row'>
             <Link href='/blog/coding-vs-programming'>

@@ -41,11 +41,11 @@ const TutorFooter = () => {
         <div>
           <h2 className="text-xl font-semibold mb-4">Services</h2>
           <ul className="space-y-2 text-slate-500">
-            <li>Full Stack Engineering</li>
-            <li>Backend Engineering</li>
-            <li>Frontend Engineering</li>
-            <li>Coding Fundamentals</li>
-            <li>Intro to HTML</li>
+            <li>Mobile and Web App Development</li>
+            <li>Sales Channel Development</li>
+            <li>Social media and Digital Marketing</li>
+            <li>Technical Writing</li>
+            <li>Blockchain Development & Education</li>
 
             {/* Add more subjects as needed */}
           </ul>
@@ -58,10 +58,10 @@ const TutorFooter = () => {
           <Link className='mr-3 py-1 flex justify-start items-start' href="/blog">
           Blog 
           </Link>
-          <Link className='mr-3 py-1  flex justify-start items-start' href="https://www.facebook.com/experiencedandfuntutors" target='_blank'>
+          <Link className='mr-3 py-1  flex justify-start items-start' href="https://www.facebook.com/meshboc" target='_blank'>
           Facebook 
           </Link>
-          <Link className='mr-3 py-1 ' href="https://www.instagram.com/p/Cm4YcG9M0XT/?igshid=YmMyMTA2M2Y=" target='_blank'>
+          <Link className='mr-3 py-1 ' href="https://www.instagram.com/" target='_blank'>
           Instagram 
           </Link>
           <Link className='mr-3 py-1 ' href="https://twitter.com/resptutors?t=t7EdsLHzmEJF-L7q7q306w&s=08" target='_blank'>

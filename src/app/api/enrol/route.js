@@ -10,6 +10,7 @@ export async function POST(req) {
     email,
     phone,
     subject,
+    medium,
   } = await req.json();
 
   try {
@@ -19,6 +20,7 @@ export async function POST(req) {
         email,
         phone,
         subject,
+        medium,
     });
 
     return NextResponse.json({

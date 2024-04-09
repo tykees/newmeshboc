@@ -7,15 +7,15 @@ import BE from '../../../../public/be.png'
 const ThingsToLearn = [
     {
       title: "NODE JS ",
-      desc: "The second text to map"
+      desc: "open-source, cross-platform JavaScript runtime environment that lets developers create servers"
     },
     {
       title: "MONGO DB",
-      desc: "The second text to map"
+      desc: "MongoDB is a source-available, cross-platform, document-oriented database program"
     },
     {
       title: "EXPRESS",
-      desc: "The second text to map"
+      desc: "Express.js, or simply Express, is a back end web application framework for building RESTful APIs with Node.js"
     },
     
 ]

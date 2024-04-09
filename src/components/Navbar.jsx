@@ -54,7 +54,7 @@ const Navbar = () => {
       ) : (
         <ul className="nav-links text-md container flex items-center gap-3 justify-center text-center">
           <li>
-            <Link href={'/#subjects'} className="links">
+            <Link href={'/#resources'} className="links">
               Resources
             </Link>
           </li>
@@ -74,15 +74,15 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link href={'/'} className="links">
+            <Link href={'/#courses'} className="links">
               Courses
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link href={'/'} className="links">
               Certificates
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link href={'/'} className="links">
               FAQs
@@ -106,6 +106,11 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
+              <Link href={'/#resources'} className="links font-normal text-2xl" onClick={handleMenuClick}>
+                Resources
+              </Link>
+            </li>
+            <li>
               <Link href={'/about'} className="links font-normal text-2xl" onClick={handleMenuClick}>
                 Why Meshboc
               </Link>
@@ -121,7 +126,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link href={'/'} className="links font-normal text-2xl" onClick={handleMenuClick}>
+              <Link href={'/#courses'} className="links font-normal text-2xl" onClick={handleMenuClick}>
                 Courses
               </Link>
             </li>

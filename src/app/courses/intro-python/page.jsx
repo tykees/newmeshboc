@@ -6,24 +6,36 @@ import Python from '../../../../public/python.png'
 
 const ThingsToLearn = [
     {
-      title: "Basic css styling",
-      desc: "Learn the basic structure of a web page and see how you can help a web browser understand your content"
+      title: "Variables",
+      desc: "Variables are containers for storing data values."
     },
     {
-      title: "Headings, paragraphs",
-      desc: "Make your document easy to read and SEO-friendly by adding headings and paragraphs "
+      title: "Data Types",
+      desc: "Python supports various data types such as integers, floats, strings, booleans, lists, tuples, dictionaries, etc. "
     },
     {
-      title: "Text formatting",
-      desc: "Add style to your content with text formatting options like bold, italics, strikethrough, colors, etc."
+      title: "Control Structures",
+      desc: "Control structures like if statements, loops (for and while), and conditional statements (if-else) are used to control the flow of execution in a Python program.."
     },
     {
-      title: "Elements and Attributes ",
-      desc: "Discover some of the most useful elements and attributes. Use them to create different information formats"
+      title: "Functions",
+      desc: "Functions are blocks of reusable code that perform a specific task."
     },
     {
-      title: "Pictures",
-      desc: "A picture is worth a thousand words. Learn how to add images to your pages "
+      title: "Lists",
+      desc: "Lists are ordered collections of items that can contain elements of different data types."
+    },
+    {
+      title: "Tuples",
+      desc: "Tuples are similar to lists but are immutable, meaning their elements cannot be changed after creation."
+    },
+    {
+      title: "Dictionaries",
+      desc: "Dictionaries are unordered collections of key-value pairs."
+    },
+    {
+      title: "Strings",
+      desc: "They support various operations such as concatenation, slicing, and formatting."
     },
    
     
@@ -52,7 +64,7 @@ const Page = () => {
         <div className='container mx-auto'>
           <div className='flex justify-start items-start flex-wrap'>
             {ThingsToLearn.map((item, index)=> (
-              <div className='bg-slate-100  w-full sm:w-[300px] max-h-[120px]  rounded-lg m-2 px-4 py-5 mb-3' key={index}>
+              <div className='bg-slate-100  w-full sm:w-[300px] min-h-[150px]  rounded-lg m-2 px-4 py-5 mb-3' key={index}>
                 <p>{item.title}</p>
                 <p className='text-sm text-slate-500'>{item.desc}</p>
               </div>

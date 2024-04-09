@@ -7,8 +7,9 @@ import {IoIosAddCircleOutline} from 'react-icons/io';
 export default function Update() {
     const [name, setName] = useState(" ");
     const [email, setEmail] = useState(" ");
-    const [phone, setPhone] = useState(" ")
+    const [phone, setPhone] = useState(" ");
     const [subject, setSubject] = useState(" ");
+    const [medium, setMedium] = useState(" ");
     const [error, setError] = useState([]);
     const [success, setSuccess] = useState(false);
 
@@ -26,6 +27,7 @@ export default function Update() {
                 email,
                 phone,
                 subject,
+                medium,
             }),
         });
 
@@ -44,7 +46,9 @@ export default function Update() {
             setEmail("")
             setPhone("")
             setSubject("")
+            setMedium("")
         }
+
     };
 
     return <>
@@ -77,6 +81,15 @@ export default function Update() {
                     <option value="Next Js">Next Js</option>
                     <option value="TypeScript">TypeScript</option>
                     <option value="Content writing">Content writing</option>
+                </select>
+            </div>
+            <div>
+                <label  className="text-slate-500" htmlFor="medium"></label>
+                <select className="text-slate-500"  onChange={(e) => setMedium(e.target.value)} value={medium}  type="text" id="medium" name="">
+                    <option value="Training Medium">Training Medium</option>
+                    <option value="Meshboc School">Meshboc School</option>
+                    <option value="Home">Home</option>
+                    <option value="Online">Online</option>
                 </select>
             </div>
             <button className=" p-3 font-bold text-black bg-cyan-500" type="submit">Send</button>

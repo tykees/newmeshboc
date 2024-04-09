@@ -21,7 +21,7 @@
   background-color: #06021b;
 }
 
-#subjects {
+#courses {
   background-color: #0b052b;
 }
 
@@ -65,6 +65,10 @@
     -webkit-user-select: none;
     touch-action: manipulation;
     transition: all
+  }
+
+  #resources {
+    transition: color 0.3s ease-in-out;
   }
 
   form > div {

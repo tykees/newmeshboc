@@ -28,19 +28,19 @@ const ThingsToLearn = [
     },
     {
       title: "React JS",
-      desc: "The second text to map"
+      desc: "React is a free and open-source front-end JavaScript library for building user interfaces based on components"
     },
     {
       title: "Tailwind CSS",
-      desc: "The second text to map"
+      desc: "Rapidly build modern websites without ever leaving your HTML."
     },
     {
       title: "NEXT JS",
-      desc: "The second text to map"
+      desc: "Next.js enables you to create high-quality web applications with the power of React components"
     },
     {
       title: "TYPESCRIPT",
-      desc: "The second text to map"
+      desc: "TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale"
     },
   
     
@@ -68,7 +68,7 @@ const Page = () => {
         <div className='container mx-auto'>
           <div className='flex justify-start items-start flex-wrap'>
             {ThingsToLearn.map((item, index)=> (
-              <div className='bg-slate-100 w-full sm:w-[300px] h-[100px] rounded-lg m-2 px-4 py-5 mb-3' key={index}>
+              <div className='bg-slate-100 w-full sm:w-[300px] max-h-[120px] rounded-lg m-2 px-4 py-5 mb-3' key={index}>
                 <p>{item.title}</p>
                 <p className='text-sm text-slate-500'>{item.desc}</p>
               </div>
