@@ -14,8 +14,8 @@
     z-index: 2;
 }
 
-.head_text {
-  font-family: 'Ubuntu';
+.head_text, .cert {
+  font-family: "Ubuntu",sans-serif;
 }
 
 .bg_about {

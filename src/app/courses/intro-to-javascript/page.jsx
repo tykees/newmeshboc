@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import Enroll from '../../../components/Enrol'
+// import Enroll from '../../../components/Enrol'
 import Studentbtn from '../../../components/Studentbtn';
 import JS from '../../../../public/js.png'
 
@@ -42,9 +42,9 @@ const Page = () => {
                 <p></p>
             </div>
             <div>
-                <h1 className='mt-5 text-l font-semibold'>Submit Your Request or Get a Quick Response on <br/> Whatsapp</h1>
+                <h1 className='mt-5 text-l font-semibold pl-2 py-3'>Get a Quick Response on <br/> Whatsapp</h1>
              <Studentbtn/>
-                <Enroll/>
+                {/* <Enroll/> */}
             </div>
         </div>
         <p className='text-center text-2xl py-3 font-bold mt-10'>What To Learn</p>

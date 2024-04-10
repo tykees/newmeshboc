@@ -92,7 +92,7 @@ export default function Update() {
                     <option value="Online">Online</option>
                 </select>
             </div>
-            <button className=" p-3 font-bold text-black bg-cyan-500" type="submit">Send</button>
+            <button className=" p-3 text-lg font-bold text-black bg-cyan-500" type="submit">Register</button>
         </form>
         <div className="bg-slate-100 text-sm flex flex-col">
   {error &&
