@@ -13,7 +13,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Intech Meshboc",
-  description: "Using and Teching the Technology of the future",
+  description: "Using and Teaching the Technology of the future",
 };
 
 export default function RootLayout({ children }) {
