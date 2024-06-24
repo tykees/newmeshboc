@@ -3,7 +3,7 @@ import React from 'react';
 
 async function fetchData() {
   try {
-    const res = await fetch('/api/enrol');
+    const res = await fetch('https://www.meshboc.com/api/enrol');
     
     if (!res.ok) {
       throw new Error(`HTTP error! status: ${res.status}`);
