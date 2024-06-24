@@ -1,24 +1,30 @@
-import React from 'react';
+"use client"
+import React, { useEffect, useState } from 'react';
 
-
-async function fetchData() {
+const fetchData = async () => {
   try {
     const res = await fetch('https://www.meshboc.com/api/enrol');
-    
     if (!res.ok) {
       throw new Error(`HTTP error! status: ${res.status}`);
     }
-
     const data = await res.json();
     return data;
   } catch (error) {
     console.error("Error fetching data:", error);
-    return []; // Return an empty array or handle the error appropriately
+    return []; // Handle the error appropriately
   }
-}
+};
 
-export default async function DisplayPage() {
-  const data = await fetchData();
+const DisplayPage = () => {
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    const loadData = async () => {
+      const fetchedData = await fetchData();
+      setData(fetchedData);
+    };
+    loadData();
+  }, []);
 
   return (
     <>
@@ -39,4 +45,6 @@ export default async function DisplayPage() {
       </div>
       </>
   );
-}
+};
+
+export default DisplayPage;
